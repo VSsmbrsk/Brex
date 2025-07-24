@@ -1,0 +1,94 @@
+
+.listt li{
+    list-style: none;
+}
+.listt a{
+    
+}
+.right{
+    gap: 38px;
+}
+.right-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #212121;
+    text-decoration: none;
+}
+.contacts{
+    
+}
+.text{
+    
+}
+.text h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #212121;
+    margin-bottom: 23px;
+}
+.text__link{
+    gap: 8px;
+}
+.text__link a{
+    
+}
+.link__first{
+    
+}
+.link__second{
+    
+}
+
+.info__block 
+.info__block h4{
+    font-size: 16px;
+    line-height: 125%;
+}
+.info__block p{
+    font-size: 14px;
+    line-height: 143%;
+}
+.info__block a{
+    
+}
+.info__block a::after{
+   
+}
+
+.solutions h1, .solutions__text{
+    
+}
+.solutions h1{
+    
+}
+.solutions__text{
+    
+}
+.solutions a{
+    
+}
+.solutions h3{
+    
+}
+
+.pic_ban-dark a{
+    
+}
+.pic_ban-dark h3{
+    color: #fff;
+}
+.pic_ban-dark 
+
+.pic_ban-rose a{
+    
+}
+.pic_ban-rose h3{
+    color: #212121;
+}
+.pic_ban-rose 
+
