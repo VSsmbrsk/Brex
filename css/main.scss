@@ -213,3 +213,130 @@
         padding: 13px 21px;
     }
 }
+.comment{
+    padding: 250px 263px 227px;
+    text-align: center;
+    p{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 109%;
+        color: #212121;
+    }
+    span{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: 0.02em;
+        color: #212121;
+    }
+}
+.cards{
+    margin-bottom: 161px;
+}
+.cards__item{
+    margin-bottom: 81px;
+    gap: 64px;
+}
+.cards-describe{
+    max-width: 325px;
+    p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #212121;
+    }
+    a{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #f46a35;
+        text-decoration: none;
+        &::after{
+            content: "";
+            display: inline-block;
+            background-image: url(../img/arrow.svg);
+            width: 13px;
+            height: 8px;
+            margin-left: 6px;
+        }
+    }
+}
+.cards__emblem{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 1104px;
+    .col-3{
+        padding: 75px 0;
+    }
+    .cards__emblem-left{
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+.advertising{
+    background-color: #f9f9f9;
+}
+.advertising__text{
+    max-width: 440px;
+    padding-top: 110px;
+    h2{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        color: #212121;
+    }
+    p{
+        margin-bottom: 33px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: #212121;
+    }
+}
+.footer__wrapper{
+    background-color: #171717;
+    padding-top: 120px;
+}
+.footer__list{
+    gap: 198px;
+    margin-bottom: 97px;
+    h6{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #fff;
+    }
+    li{
+        margin-bottom: 8px;
+        list-style: none;
+        a{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 157%;
+            color: #bcbdbd;
+            text-decoration: none;
+        }
+    }
+}
+.footer__links{
+    gap: 192px;
+    margin-bottom: 131px;
+}
+.footer__copyright span, a, p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    letter-spacing: 0.02em;
+}
+span, a{
+    color: #bcbdbd;
+}
+p{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+
