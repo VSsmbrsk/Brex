@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brex</title>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -12,25 +14,38 @@
 </head>
 <body>
 <header>
-    <div class="container">
-        <div class="d-flex justify-content-between align-items-center py-3">
-            <div class="d-flex">
-                <a href="#"><img src="img/logo.svg" alt="logo"></a>
-                <ul class="header__list d-flex">
-                    <li><a href="#" class="header__link">Solutions</a></li>
-                    <li><a href="#" class="header__link">Products</a></li>
-                    <li><a href="#" class="header__link">Why Brex?</a></li>
-                    <li><a href="#" class="header__link">Empower</a></li>
-                    <li><a href="#" class="header__link">Resources</a></li>
-                </ul>
-            </div>
-            <div class="header__right d-flex align-items-center">
-                <a href="#" class="header__right-link">Open an account</a>
-                <a href="#" class="header__right-link">Sign in</a>
-                <a href="#" class="header__right-contacts">Contacts sales</a>
-            </div>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Brex logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Why Brex?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Empower</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__right d-flex align-items-center">
+            <a href="#" class="header__right-link">Open an account</a>
+            <a href="#" class="header__right-link">Sign in</a>
+            <a href="#" class="header__right-contacts">Contacts sales</a>
         </div>
-    </div>
+        </div>
+      </nav>
 </header>
 <section>
     <div class="container">
@@ -55,14 +70,14 @@
             <img src="img/brex_info.jpg" alt="picture">
         </div>
         <div class="row emblems">
-            <div class="col"><img src="img/ombinator.png" alt="logo"></div>
-            <div class="col"><img src="img/doordash.png" alt="logo"></div>
-            <div class="col text-center"><img src="img/scale.png" alt="logo"></div>
-            <div class="col"><img src="img/airtable.png" alt="logo"></div>
-            <div class="col"><img src="img/whatnot.png" alt="logo"></div>
-            <div class="col"><img src="img/classpass.png" alt="logo"></div>
-            <div class="col text-center"><img src="img/deel.png" alt="logo"></div>
-            <div class="col text-center"><img src="img/airbnb.png" alt="logo"></div>
+            <div class="col py-2"><img src="img/ombinator.png" alt="logo"></div>
+            <div class="col py-2"><img src="img/doordash.png" alt="logo"></div>
+            <div class="col py-2 text-center"><img src="img/scale.png" alt="logo"></div>
+            <div class="col py-2"><img src="img/airtable.png" alt="logo"></div>
+            <div class="col py-2"><img src="img/whatnot.png" alt="logo"></div>
+            <div class="col py-2"><img src="img/classpass.png" alt="logo"></div>
+            <div class="col py-2 text-center"><img src="img/deel.png" alt="logo"></div>
+            <div class="col py-2 text-center"><img src="img/airbnb.png" alt="logo"></div>
         </div>
     </div>
 </section>
@@ -72,7 +87,7 @@
             <h2 class="col-5 text-center mb-2">Solutions that work for you.</h2>
             <p class="col-8 solutions__text text-center mb-5">Brex meets you where you are — and takes you where you want to go.</p>
         </div>
-        <div class="d-flex justify-content-between gap-3">
+        <div class="banners d-flex justify-content-center gap-3 flex-wrap">
             <div class="pic_ban-dark pt-5">
                 <h3 class="mb-2">Brex for enterprise.</h3>
                 <p class="mb-4 m-auto">Easy-to-use corporate cards and spend management software in an integrated global solution.</p>
@@ -101,10 +116,22 @@
     </div>
 </section>
 <section>
-    <div class="container comment">
-        <img src="img/doordash.png" alt="doordash emblem" class="mb-5">
-        <p class="mb-5">"DoorDash went from a 100-person startup to over 9,000 employees. We needed a solution that was innovative in the T&E space."</p>
-        <span>— Mike Kim, VP of Finance, DoorDash</span>
+    <div class="owl-carousel">
+        <div class="container comment">
+            <img src="img/doordash.png" alt="doordash emblem" class="mb-5">
+            <p class="mb-5">"DoorDash went from a 100-person startup to over 9,000 employees. We needed a solution that was innovative in the T&E space."</p>
+            <span>— Mike Kim, VP of Finance, DoorDash</span>
+        </div>
+        <div class="container comment">
+            <img src="img/doordash.png" alt="doordash emblem" class="mb-5">
+            <p class="mb-5">"DoorDash went from a 100-person startup to over 9,000 employees. We needed a solution that was innovative in the T&E space."</p>
+            <span>— Mike Kim, VP of Finance, DoorDash</span>
+        </div>
+        <div class="container comment">
+            <img src="img/doordash.png" alt="doordash emblem" class="mb-5">
+            <p class="mb-5">"DoorDash went from a 100-person startup to over 9,000 employees. We needed a solution that was innovative in the T&E space."</p>
+            <span>— Mike Kim, VP of Finance, DoorDash</span>
+        </div>
     </div>
 </section>
 <section>
@@ -127,10 +154,10 @@
             </div>
         </div>
         <div class="row cards__emblem m-auto">
-            <div class="col-3 text-center cards__emblem-left"><img src="img/techcrunch.svg" alt="logo"></div>
-            <div class="col-3 text-center cards__emblem-left"><img src="img/ny_times.svg" alt="logo"></div>
-            <div class="col-3 text-center"><img src="img/zdnet.svg" alt="logo"></div>
-            <div class="col-3 text-center"><img src="img/forbes.svg" alt="logo"></div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 text-center cards__emblem-left"><img src="img/techcrunch.svg" alt="logo"></div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 text-center cards__emblem-left"><img src="img/ny_times.svg" alt="logo"></div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 text-center"><img src="img/zdnet.svg" alt="logo"></div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 text-center"><img src="img/forbes.svg" alt="logo"></div>
         </div>
     </div>
 </section>
@@ -139,7 +166,7 @@
         <div class="advertising__text">
             <h2 class="mb-4">See what Brex can do for you.</h2>
             <p>Get in touch to learn how our spend solution can increase financial efficiency and speed for your company.</p>
-            <div class="text__link d-flex">
+            <div class="text__links d-flex">
                 <a href="#" class="link__first">Contact sales</a>
                 <a href="#" class="link__second bg-transparent border-dark">Open an account</a>
             </div>
@@ -217,5 +244,8 @@
 </footer>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

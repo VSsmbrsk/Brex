@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  outline: 1px solid red;
 }
 
 .container {
@@ -19,19 +20,31 @@ p {
   letter-spacing: 0,02em;
 }
 
-.header__list {
-  gap: 38px;
-  margin: 0;
-  padding: 0;
-  margin-left: 29px;
+.navbar-brand {
+  margin-right: 29px;
 }
 
-.header__link,
+.navbar-nav {
+  gap: 38px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+}
+
+.nav-link,
 .header__right-link {
   font-size: 14px;
   line-height: 143%;
   letter-spacing: 0.02em;
   color: #212121;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.nav-link:hover,
+.header__right-link:hover {
+  color: #f46a35;
 }
 
 .header__right {
@@ -46,6 +59,13 @@ p {
   border: 1px solid #f46a35;
   border-radius: 10px;
   background-color: #f46a35;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header__right-contacts:hover {
+  background-color: #fff;
+  color: #f46a35;
 }
 
 .text {
@@ -77,12 +97,26 @@ p {
   color: #fff;
   border: 1px solid #f46a35;
   background-color: #f46a35;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.link__first:hover {
+  background-color: #fff;
+  color: #f46a35;
 }
 
 .link__second {
   color: #212121;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.link__second:hover {
+  background-color: #f9f9f9;
+  border: 1px solid #212121;
 }
 
 .info__block {
@@ -105,6 +139,8 @@ p {
   font-size: 16px;
   line-height: 150%;
   color: #f46a35;
+  -webkit-transition: text-shadow 0.3s ease;
+  transition: text-shadow 0.3s ease;
 }
 
 .info__block a::after {
@@ -114,6 +150,16 @@ p {
   width: 13px;
   height: 8px;
   margin-left: 6px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.info__block a:hover {
+  text-shadow: 0 0 1px #f46a35;
+}
+
+.info__block a:hover::after {
+  margin-left: 12px;
 }
 
 .enterprise {
@@ -150,6 +196,7 @@ p {
 }
 
 .pic_ban-dark {
+  max-width: 580px;
   background: url(../img/bg-dark.jpg);
 }
 
@@ -159,6 +206,13 @@ p {
 
 .pic_ban-dark a {
   border: 1px solid #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pic_ban-dark a:hover {
+  background-color: #fff;
+  color: #212121;
 }
 
 .pic_ban-dark p {
@@ -168,6 +222,7 @@ p {
 }
 
 .pic_ban-rose {
+  max-width: 580px;
   background: url(../img/bg-rose.jpg);
 }
 
@@ -177,6 +232,13 @@ p {
 
 .pic_ban-rose a {
   border: 1px solid #212121;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pic_ban-rose a:hover {
+  background-color: #fff;
+  color: #212121;
 }
 
 .pic_ban-rose p {
@@ -216,6 +278,18 @@ p {
   line-height: 157%;
   color: #212121;
   padding: 13px 21px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.flexible__text a:hover {
+  background-color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .flexible__text img {
+    max-width: 100%;
+  }
 }
 
 .comment {
@@ -259,6 +333,8 @@ p {
   font-size: 16px;
   line-height: 150%;
   color: #f46a35;
+  -webkit-transition: text-shadow 0.3s ease;
+  transition: text-shadow 0.3s ease;
 }
 
 .cards-describe a::after {
@@ -268,6 +344,16 @@ p {
   width: 13px;
   height: 8px;
   margin-left: 6px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.cards-describe a:hover {
+  text-shadow: 0 0 1px #f46a35;
+}
+
+.cards-describe a:hover::after {
+  margin-left: 12px;
 }
 
 .cards__emblem {
@@ -275,12 +361,17 @@ p {
   max-width: 1104px;
 }
 
-.cards__emblem .col-3 {
+.cards__emblem .col-lg-3 {
   padding: 75px 0;
 }
 
 .cards__emblem .cards__emblem-left {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cards__emblem img {
+  max-width: 100%;
+  height: auto;
 }
 
 .advertising {
@@ -304,6 +395,16 @@ p {
   font-size: 20px;
   line-height: 160%;
   color: #212121;
+}
+
+.bg-transparent {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bg-transparent:hover {
+  background-color: #212121 !important;
+  color: #fff;
 }
 
 .footer__wrapper {
